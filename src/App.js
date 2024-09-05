@@ -44,15 +44,6 @@ function App() {
 
   return (
     <div className="App">
-      <div className="social-links">
-        <a
-          href="https://www.linkedin.com/in/dsha/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin"></i>
-        </a>
-      </div>
       <h1>Smart Rover</h1>
 
       <div className="grid">
@@ -97,6 +88,15 @@ function App() {
             onClick={() => setDirection("DOWN")}
           ></div>
         </div>
+      </div>
+      <div className="social-links">
+        <a
+          href="https://www.linkedin.com/in/dsha/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin"></i>
+        </a>
       </div>
     </div>
   );
