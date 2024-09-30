@@ -5,10 +5,10 @@ import "./App.css";
 const GRID_SIZE = 5;
 //to change the emojis when direction is changed
 const directionEmojis = {
-  UP: "🦖⬆️",
-  RIGHT: "🦖➡️",
-  DOWN: "🦖⬇️",
-  LEFT: "🦖⬅️",
+  UP: "🦉⬆️",
+  RIGHT: "🦉➡️",
+  DOWN: "🦉⬇️",
+  LEFT: "🦉⬅️",
 };
 
 function App() {
