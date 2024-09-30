@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Smart Rover with Bellroy-Inspired Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple JavaScript web application built using **React.js** that simulates controlling a robot on a 5x5 grid. The robot can be moved in the directions "Up", "Down", "Left", and "Right" based on user input. The application also includes a LinkedIn link in the header for social connectivity.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Robot Movement**: Users can control the robot's movement using directional buttons (⬆️ ⬇️ ⬅️ ➡️).
+- **Grid Layout**: The robot(Owl) moves on a 5x5 grid and the robot's path is tracked visually.
+- **Direction Indication**: The owl emoji changes its direction based on the movement.
+- **Responsive UI**: The UI is clean and minimalist, with a Bellroy-inspired look.
+- **Social Link**: Includes a LinkedIn icon in the footer for connectivity.
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live deployed version of the project on **Netlify**:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Live Demo on Netlify](https://smart-rover.netlify.app)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js**: Component-based JavaScript framework.
+- **CSS**: For custom styling and layout.
+- **FontAwesome**: For social media icons (LinkedIn).
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow these steps to get the project up and running locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have Node.js and npm (Node Package Manager) installed.
 
-### `npm run eject`
+- [Download Node.js](https://nodejs.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/dshapatel/smart-rover.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+```bash
+cd smart-rover
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the required dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+### Running the Application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. After installation, run the development server:
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Open your browser and visit `http://localhost:3000`. You should see the robot simulator with a 5x5 grid and directional buttons for controlling the robot.
 
-### Making a Progressive Web App
+### Directory Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+smart-rover/
+├── public/
+│   ├── index.html                 # The main HTML file
+├── src/
+│   ├── App.js                     # Main application component
+│   ├── App.css                    # Application styling
+│   ├── images/                    # Folder containing images
+│       └── smart-rover-image.png  # Screenshot of the app
+│   └── index.js                   # Entry point for React
+├── package.json                   # Project metadata and dependencies
+├── README.md                      # Project documentation
+└── node_modules/                  # Installed dependencies
+```
 
-### Advanced Configuration
+## How to Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Control the Robot**: Use the directional buttons (⬆️ ⬇️ ⬅️ ➡️) to move the robot around the 5x5 grid. The robot/owl will face the direction of the last button clicked.
+- **LinkedIn**: Click on the LinkedIn icon in the footer to connect with the developer.
 
-### Deployment
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img src="src/images/smart-rover-image.png" width="300">
 
-### `npm run build` fails to minify
+## Social Media Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [LinkedIn](https://www.linkedin.com/in/dsha/)
